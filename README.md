@@ -13,9 +13,9 @@ This repository contains a series of four assignments for a CS360 Computer Graph
 [cite_start]This project involved rendering a 2D animated scene using only three basic shapes: triangles, squares, and circles[cite: 82, 94]. [cite_start]All objects in the scene, like the house, car, and windmills, are constructed by applying affine transformations (translation, rotation, scaling) to these basic primitives[cite: 83].
 
 **Key Features:**
-* [cite_start]Hierarchical modeling to build complex objects (e.g., house, windmills) from simple shapes[cite: 109].
-* [cite_start]Simple animations, including rotating windmill blades and a boat moving back and forth on the river[cite: 97, 98].
-* [cite_start]UI buttons to toggle the rendering mode between solid surfaces (`gl.TRIANGLES`), wireframes (`gl.LINE_LOOP`), and points (`gl.POINTS`) [cite: 102-105].
+* Hierarchical modeling to build complex objects (e.g., house, windmills) from simple shapes[cite: 109].
+* Simple animations, including rotating windmill blades and a boat moving back and forth on the river[cite: 97, 98].
+* UI buttons to toggle the rendering mode between solid surfaces (`gl.TRIANGLES`), wireframes (`gl.LINE_LOOP`), and points (`gl.POINTS`) [cite: 102-105].
 
 ---
 
