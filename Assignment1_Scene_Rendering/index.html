@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CS360_Assignment_1</title>
+  <style>
+    canvas { border: 1px solid rgb(0, 0, 0); }
+    button { margin: 5px; }
+  </style>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center;">
+  <h2 style="text-align: center;">Assignment_1 - By Kartik(220503)</h2>
+  <canvas id="glcanvas" width="600" height="600"></canvas>
+  <br>
+  <div>
+    <button onclick="setRenderMode(gl.POINTS)">Point View</button>
+    <button onclick="setRenderMode(gl.LINES)">WireFrame View</button>
+    <button onclick="setRenderMode(gl.TRIANGLES)">Solid View</button>
+  </div>
+
+
+  <script src="glMatrix-0.9.5.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

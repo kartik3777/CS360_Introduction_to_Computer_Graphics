@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CS360_Assignment_4 </title>
+  <style>
+    body { background:#000000; color:white; text-align:center; font-family:sans-serif; }
+    canvas { border:2px solid #ffffff; }
+    #animateCheckbox{
+       height: 20px;
+       width: 20px;
+       cursor: pointer;
+    }
+  </style>
+  
+  <script src="glMatrix-0.9.5.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body onload="webGLStart()">
+  <h2>CS360_Assignment_4</h2>
+  <canvas id="webgl-canvas" width="700" height="700"></canvas>
+  
+  <div>
+    <label for="lightXSlider">Light X Position:</label>
+    <input type="range" id="lightXSlider" min="-2" max="18" step="0.1" value="8.0" />
+  </div>
+
+  <div>
+    <label for="animateCheckbox">Animate: </label>
+    <input type="checkbox" id="animateCheckbox" />
+  </div>
+  
+</body>
+</html>

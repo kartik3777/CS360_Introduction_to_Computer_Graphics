@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>CS360</title>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body onload="webGLStart();">
+    <div>
+      <h1>CS360_Assignment_2  -by Kartik(220503)</h1>
+        <canvas
+        id="assn2"
+        style="border: none"
+        width="1200"
+        height="400"
+        ></canvas>
+    </div>
+    <div class="wrt" style="text-align: center">
+      <h2 id="flat">Per-Face Shading</h2> 
+      <h2 id="vertex">Gouraud Shading (Per-Vertex)</h2> 
+      <h2 id="frag">Phong Shading (Per-Fragment)</h2>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="slider-class">
+        <b>Control Light Position :</b> <input type="range" class="slider" id="light-slider" min="-15.0" max="15.0" step="1.0" value="3.0">
+        <br/>
+        <b>Control Camera Zoom :</b> <input type="range" class="slider" id="camera-slider" min="0.0" max="15.0" step="1.0" value="2.0">
+    </div>
+    <br/>
+    <button class="button" onClick="window.location.reload();">RESET</button>
+  </body>
+</html>

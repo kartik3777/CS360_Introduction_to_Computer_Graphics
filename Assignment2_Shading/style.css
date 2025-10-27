@@ -1,0 +1,51 @@
+  body { 
+            margin:20px; 
+        }
+        .wrt {
+            align-items: center;
+        }
+        #flat {
+            float: left;
+            width: 400px;
+        }
+        #vertex {
+            float: left;
+            width: 400px;
+        }
+        #frag {
+            float: left;
+            width: 400px;
+        }
+        .slider {
+            width: 300px;
+            margin: 10px;
+        }
+        .slider-class {
+            float: left;
+        }
+        .button {
+            float: left;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 7px;
+            box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+            box-sizing: border-box;
+            color: #000000;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: "Google Sans", Roboto, Arial, sans-serif;
+            font-size: 15px;
+            height: 48px;
+            justify-content: center;
+            letter-spacing: .25px;
+            overflow: visible;
+            padding: 2px 24px;
+            position: relative;
+            width: auto;
+        }
+
+        .button:hover {
+           box-shadow: 0 0 0;
+        }
+
+  
